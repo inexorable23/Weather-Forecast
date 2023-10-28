@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background:url('image1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow:hidden;
+    height: 100vh;
+}
+
+
+.center-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+#cityInput {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #757975;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#iconsContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    background-color: #fffdfd;
+    padding: 20px;
+    border: 1px solid #fffdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 200px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+.weather {
+    font-size: 18px;
+    color: #000000;
+}
+
+.imgClass {
+    width: 50px; /* Adjust the width of the image as needed */
+    height: 50px; /* Adjust the height of the image as needed */
+    margin: 10px 0;
+}
+
+.minValues, .maxValues {
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+#Para1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#inputContainer {
+    margin-bottom: 20px;
+}
+
+#cityInput, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#weatherContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    margin: 20px;
+    text-align: center;
+}
+
+.weather, .minValues, .maxValues {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+}
